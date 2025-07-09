@@ -5,8 +5,8 @@ import {View, Text, Image, StyleSheet} from 'react-native';
 export default function PaoScreen(){
   return(
     <View style={sttle.container}
-   <Text style=style.title}>um pao caseiro fresco </text>
-   <Image source={{ uri: 'https://recipesblob.oetker.com.br/assets/18efac19eac14ceb8c1e1006f5944dbf/636x382/po-caseiro-super-fofinho.jpg'}}
+   <Text style=style.title}> Um cafe fresco </text>
+   <Image source={{ uri: 'https://img.odcdn.com.br/wp-content/uploads/2024/10/cafe.jpg'}}
    style={styles.Image}></Image>
    </View>
   );
@@ -43,4 +43,3 @@ const styles=StyleSheet.create({
     lineHeight:25,
   },
 });
-  
